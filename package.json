@@ -14,12 +14,9 @@
     "postpublish": "yarn clean",
     "prepublishOnly": "yarn clean && yarn build"
   },
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
-  },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Panenco/rollup-plugin-svg-sprite.git"
+    "url": "git@github.com:Panenco/rollup-plugin-svg-sprite.git"
   },
   "lint-staged": {
     "*.{js,jsx}": [
